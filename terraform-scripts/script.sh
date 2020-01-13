@@ -13,7 +13,7 @@ version=1.14
 USER=ubuntu
 DKUBEVERSON="1.4.2"
 installpath=$HOME
-localuser=dkube
+localuser=ubuntu
 sudo chmod 400 $pem
 cp install $installpath
 #checking for root or not
