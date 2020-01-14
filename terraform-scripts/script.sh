@@ -1,12 +1,12 @@
-#bash -x sed.sh
+#User can Edit these fields or can leave it as default values
 append=dkube-demo
 ip=99
 ami="ami-0551b6dc0b4079e1d" 
 #ami="ami-04b9e92b5572fa0d1"
 instance_type="m5a.4xlarge"
 region=us-west-2
-key=dkube-demo
-pem=dkube-demo.pem
+key=dkube-qa
+pem=dkube-qa.pem
 max_size=10
 desired_capacity=1
 version=1.14
@@ -14,6 +14,8 @@ USER=ubuntu
 DKUBEVERSON="1.4.2"
 installpath=$HOME
 localuser=ubuntu
+#End of Edit fields
+
 sudo chmod 400 $pem
 cp install $installpath
 #checking for root or not
