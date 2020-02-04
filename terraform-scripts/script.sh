@@ -8,7 +8,7 @@
 
 #######REQUIRED######
 EKS_core_name=dkube-eks-test                    #Base name of your cluster
-ip=33                                           #First 8-bit field value IPv4
+ip=99                                           #First 8-bit field value IPv4
 pem=dkube-qa.pem                                #aws pem file to access cluster
 ami="ami-08819fa70d3983bc6"                     #AMI-id of EKS Image
 instance_type="m5a.4xlarge"                     #Instance type for your cluster
